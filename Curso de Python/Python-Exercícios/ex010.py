@@ -1,0 +1,6 @@
+print('====DESAFIO 10====')
+carteira = float(input('\033[33mDigite quanto você tem na carteira: \033[m'))
+valor_em_dolar = (carteira / 4.77)
+valor_em_euro = (carteira/5.27)
+print('\033[35mO valor que o salário de R${} pode comprar em dólares é {:.1f} US$\033[m'.format(carteira, valor_em_dolar))
+print('\033[35mO valor que o salário de R${} pode comprar em dólares é {:.1f} €\033[m'.format(carteira, valor_em_euro))

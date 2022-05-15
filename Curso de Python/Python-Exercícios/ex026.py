@@ -1,0 +1,6 @@
+print('====DESAFIO 26====')
+nome = str(input('Digite seu nome: ')).upper().strip()
+print('Quantas vezes aparece A? {}'.format(nome.count('A')))
+print('A primeira letra A apareceu na posição {}'.format(nome.find('A')+1))
+print('A ultima letra A apareceu na posição {}'.format(nome.rfind('A')+1))
+print('====FIM DO DESAFIO====')
